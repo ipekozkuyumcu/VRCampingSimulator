@@ -161,7 +161,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
+  AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -595,7 +595,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: USE_INPUT_SYSTEM_POSE_CONTROL
+    0: STARTER_ASSETS_PACKAGES_CHECKED
+    1: USE_INPUT_SYSTEM_POSE_CONTROL;STARTER_ASSETS_PACKAGES_CHECKED
     7: USE_INPUT_SYSTEM_POSE_CONTROL
     14: USE_INPUT_SYSTEM_POSE_CONTROL
   additionalCompilerArguments: {}

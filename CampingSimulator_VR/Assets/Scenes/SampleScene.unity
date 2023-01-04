@@ -722,9 +722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292f4e0cc60b437408a0902707380fbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startInVR: 0
-  xrOrigin: {fileID: 1665613609}
-  desktopCharacter: {fileID: 397096312}
 --- !u!4 &230143569
 Transform:
   m_ObjectHideFlags: 0
@@ -770,23 +767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55919ac34a26952479f3fc91f777b2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
-  SprintSpeed: 6
-  RotationSpeed: 1
-  SpeedChangeRate: 10
-  JumpHeight: 1.2
-  Gravity: -15
-  JumpTimeout: 0.1
-  FallTimeout: 0.15
-  Grounded: 1
-  GroundedOffset: -0.14
-  GroundedRadius: 0.5
-  GroundLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  CinemachineCameraTarget: {fileID: 0}
-  TopClamp: 90
-  BottomClamp: -90
 --- !u!114 &397096314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,7 +1137,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1655941429}
   - component: {fileID: 1655941431}
-  - component: {fileID: 1655941430}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -1179,14 +1158,6 @@ Transform:
   m_Father: {fileID: 397096316}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1655941430
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1655941428}
-  m_Enabled: 1
 --- !u!20 &1655941431
 Camera:
   m_ObjectHideFlags: 0

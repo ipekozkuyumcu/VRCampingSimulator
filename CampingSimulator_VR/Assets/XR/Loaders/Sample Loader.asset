@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f9ec0c9b91dd5e4583c9b7b1ac2813f, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b3514831795c1541afa83712fdad570, type: 3}
   m_Name: Sample Loader
   m_EditorClassIdentifier: 

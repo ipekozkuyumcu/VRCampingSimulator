@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{80cfbd52-30b1-f086-cc71-37ccafbc7b3c}</ProjectGuid>
+    <ProjectGuid>{1cc78811-f45d-2b73-6725-c984d6ba1ea8}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>ControllerSample</AssemblyName>
+    <AssemblyName>NaughtyAttributes.Core</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_36;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;USE_INPUT_SYSTEM_POSE_CONTROL;STARTER_ASSETS_PACKAGES_CHECKED;UNITY_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_36;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;USE_INPUT_SYSTEM_POSE_CONTROL;STARTER_ASSETS_PACKAGES_CHECKED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -52,22 +52,50 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToButton.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToHaptics.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToVector2SliderISX.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToButtonISX.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToVector2.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToDeviceInfo.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\TrackingModeOrigin.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToVisibilityISX.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToControl.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionAssetEnabler.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\DisplayDeviceInfoFromActionISX.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\AutomaticTrackingModeChanger.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToVisibility.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToSliderISX.cs" />
-     <Compile Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ActionToAxis.cs" />
-     <None Include="Assets\Samples\OpenXR Plugin\1.6.0\Controller\Scripts\ControllerSample.asmdef" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes_SpecialCase\ShowNonSerializedFieldAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes_SpecialCase\ReorderableListAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\EnumFlagsAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\FoldoutAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\DropdownAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\ValidatorAttributes\RequiredAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\HorizontalLineAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\IGroupAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\ProgressBarAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\AnimatorParamAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\ValidatorAttributes\MinValueAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\ResizableTextAreaAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\DrawerAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\ValidatorAttributes\MaxValueAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\LayerAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\Utility\EConditionOperator.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\AllowNestingAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\EnableIfAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\Expandable.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\SceneAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\LabelAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\MetaAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\ShowAssetPreviewAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\INaughtyAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\OnValueChangedAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\MinMaxSliderAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\CurveRangeAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\DisableIfAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\Utility\EColor.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\InputAxisAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\BoxGroupAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\InfoBoxAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes_SpecialCase\ShowNativePropertyAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\EnableIfAttributeBase.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes_SpecialCase\SpecialCaseDrawerAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\ShowIfAttributeBase.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\ShowIfAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes\TagAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\ValidatorAttributes\ValidatorAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\MetaAttributes\HideIfAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\DrawerAttributes_SpecialCase\ButtonAttribute.cs" />
+     <None Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Core\NaughtyAttributes.Core.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -658,18 +686,6 @@
  </Reference>
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.OpenXR">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InputSystem">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

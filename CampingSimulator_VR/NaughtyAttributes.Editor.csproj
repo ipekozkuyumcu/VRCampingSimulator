@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f2309051-10f7-1370-1721-59e9fc71e909}</ProjectGuid>
+    <ProjectGuid>{1226f7f4-caa1-abc2-53e3-838d5109eb59}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>NaughtyAttributes.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,21 +52,37 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs" />
-     <Compile Include="Assets\StarterAssets\Editor\FirstPersonStarterAssetsDeployMenu.cs" />
-     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\GrabPoseEditor.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\HandEditor.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\GrabPoseRadiusEditor.cs" />
-     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\Editor\XRAutoHandAxisFingerBenderEditor.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\GrabbableEditor.cs" />
-     <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\Editor\XRAutoHandFingerBenderEditor.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\EditorHandEditor.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\FingerEditor.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\AutoHandSetupWizard.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Editor\HandPoseAreaEditor.cs" />
-     <Compile Include="Assets\AutoHand\Examples\Scenes\OpenXR\Scripts\Editor\OpenXRAutoHandAxisFingerBenderEditor.cs" />
-     <Compile Include="Assets\AutoHand\Examples\Scenes\OpenXR\Scripts\Editor\OpenXRAutoHandFingerBenderEditor.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\DecoratorDrawers\HorizontalLineDecoratorDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\Utility\NaughtyEditorGUI.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyValidators\MinValuePropertyValidator.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\AllowNestingPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyValidators\PropertyValidatorBase.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyValidators\ValidateInputPropertyValidator.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\ShowAssetPreviewPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\EnumFlagsPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\Utility\PropertyUtility.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\ScenePropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\TagPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyValidators\RequiredPropertyValidator.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyValidators\MaxValuePropertyValidator.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers_SpecialCase\SpecialCasePropertyDrawerBase.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\NaughtyInspector.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\InputAxisPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\Utility\ReflectionUtility.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\MinMaxSliderPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\LayerPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\ProgressBarPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\Utility\ButtonUtility.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\DropdownPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\PropertyDrawerBase.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\Utility\SavedBool.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\AnimatorParamPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\CurveRangePropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\DecoratorDrawers\InfoBoxDecoratorDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\ResizableTextAreaPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers_SpecialCase\ReorderableListPropertyDrawer.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\PropertyDrawers\ExpandablePropertyDrawer.cs" />
+     <None Include="Assets\AutoHand\Scripts\Attributes\NaughtyAttributes\Editor\NaughtyAttributes.Editor.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -664,149 +680,20 @@
  <Reference Include="System.Xml.XPath.XDocument">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.WindowsMixedReality">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Interaction.Toolkit">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Subsystem.Registration">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InputSystem">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.MagicLeap">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEngine.XR.MagicLeap.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.InteractionSubsystems">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.CoreUtils.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.WindowsMixedReality.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.MagicLeap">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEditor.XR.MagicLeap.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.OpenXR.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARSubsystems.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARSubsystems">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.OpenXR">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.CoreUtils">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
- <HintPath>D:/Project Files/BUG Jr/GAD302_VR Tech_Fall 22-23/Dilara Isman_Ipek Ozkuyumcu_CampingVR/CampingSimulator_VR/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{c7260239-8214-3cff-7933-a42e2177a2c5}</Project>
-      <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="ControllerSample.csproj">
-      <Project>{80cfbd52-30b1-f086-cc71-37ccafbc7b3c}</Project>
-      <Name>ControllerSample</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{f4b7f262-301b-6712-13ab-c0015f855895}</Project>
-      <Name>Unity.XR.Management.Samples.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{96b0c5d9-9b31-757c-a5f8-aff5be2e8ce3}</Project>
-      <Name>Unity.XR.Management.Samples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{796152d8-41e0-c963-b9d9-e864834df489}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
-      <Project>{1226f7f4-caa1-abc2-53e3-838d5109eb59}</Project>
-      <Name>NaughtyAttributes.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="NaughtyAttributes.Core.csproj">
       <Project>{1cc78811-f45d-2b73-6725-c984d6ba1ea8}</Project>
       <Name>NaughtyAttributes.Core</Name>
